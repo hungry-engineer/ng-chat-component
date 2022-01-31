@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/%40chat21%2Fchat21-web-widget.svg)](https://badge.fury.io/js/%40chat21%2Fchat21-web-widget)
 
-# chat21-web-widget
+# chat-component
 
 > ***🚀 Do you want to install Tiledesk on your server with just one click?***
 > 
