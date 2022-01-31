@@ -1,17 +1,15 @@
 [![npm version](https://badge.fury.io/js/%40chat21%2Fchat21-web-widget.svg)](https://badge.fury.io/js/%40chat21%2Fchat21-web-widget)
 
-# chat-component
+# ng-chat-component
 
 > ***🚀 Do you want to install Tiledesk on your server with just one click?***
 > 
 > ***Use [Docker Compose Tiledesk installation](https://github.com/Tiledesk/tiledesk-deployment/blob/master/docker-compose/README.md) guide***
 
-Chat21-web-widget is a Free Live Chat Widget built on Firebase with Angular5 that lets you support and chat with visitors and customers on your website. 
+chat-component is a Free Live Chat Widget built on Firebase with Angular5 that lets you support and chat with visitors and customers on your website. 
 More information about web widget here : http://www.tiledesk.com
 
-<img width="488" alt="dialogo_widgetchat_2" src="https://user-images.githubusercontent.com/32448495/37662363-35110862-2c57-11e8-8720-263d1ff96f29.jpg">
-
-With Chat21-web-widget you can:
+With Ng-chat-component you can:
 * Invite your website visitors to share feedback and suggestions to better understand their needs.
 * Answer questions from website visitors instantly to increase trust
 * Add a code snippet to your website easly 
@@ -22,17 +20,17 @@ With Chat21-web-widget you can:
 * Receive realtime support from your team
 * Form to enter the chat sentiment
 * Configure the widget with company logo and colors
-* Chat21 Web Widget is free and open source.
+* chat-component is free and open source.
 
 # Prerequisites #
 * Install Git
 * Install Angular CLI with  `npm install -g @angular/cli`. More info here https://github.com/angular/angular-cli#installation
 * Create a Firebase project. Create one free on `https://firebase.google.com`
-* "Chat21 Firebase cloud functions" installed. Instructions:`https://github.com/chat21/chat21-cloud-functions`
+* "Chat21 Firebase cloud functions" installed. Instructions:`https://github.com/ng-chat-component/chat21-cloud-functions`
 
 # Installation
 
-* Clone the repository from master (or use a tagged release) with command: ```git clone https://github.com/chat21/chat21-web-widget <YOUR_PATH>```
+* Clone the repository from master (or use a tagged release) with command: ```git clone https://github.com/hungry-engineer/ng-chat-component <YOUR_PATH>```
 * Move to the downloaded project path ```cd <YOUR_PATH>```
 * Build running: `npm install`
 
@@ -142,11 +140,11 @@ To run Chat21-ionic on port 8080 run:
 
 ```
 
-curl https://raw.githubusercontent.com/chat21/chat21-web-widget/master/env.sample --output .env
+curl https://raw.githubusercontent.com/hungry-engineer/chat21-web-widget/master/env.sample --output .env
 
 nano .env #configure .env file properly
 
-docker run -p 4200:80 --env-file .env chat21/chat21-web-widget
+docker run -p 4200:80 --env-file .env hungry-engineer/ng-chat-component
 
 ```
 
