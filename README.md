@@ -140,7 +140,7 @@ To run Chat21-ionic on port 8080 run:
 
 ```
 
-curl https://raw.githubusercontent.com/hungry-engineer/chat21-web-widget/master/env.sample --output .env
+curl https://raw.githubusercontent.com/hungry-engineer/ng-chat-component/master/env.sample --output .env
 
 nano .env #configure .env file properly
 
